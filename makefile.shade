@@ -1,0 +1,10 @@
+var VERSION='0.1'
+var FULL_VERSION='0.1'
+var AUTHORS='Microsoft'
+
+use-standard-lifecycle
+k-standard-goals
+custom-goals
+
+#initialize if='Directory.Exists("src")'
+  exec program='dotnet' commandline='run -p ../../tools/LibuvCopier' workingdir='${Path.Combine(Directory.GetCurrentDirectory(), "src/Libuv")}'
