@@ -1,6 +1,12 @@
 {
   "version": "1.7.6-*",
   "description": "Multi-platform support library with a focus on asynchronous I/O.",
+  "authors": [
+      "Libuv"
+  ],
+  "tags": [
+      "libuv"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/aspnet/libuv-package"
