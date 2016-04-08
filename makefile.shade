@@ -6,5 +6,8 @@ use-standard-lifecycle
 k-standard-goals
 custom-goals
 
-#initialize if='Directory.Exists("src")'
+#unset-env target='initialize'
+  - Environment.SetEnvironmentVariable("KOREBUILD_ADD_ASSEMBLY_INFO", "0");
+
+#copy-libuv target='initialize' if='Directory.Exists("src")'
   exec program='dotnet' commandline='run -p ../../tools/LibuvCopier' workingdir='${Path.Combine(Directory.GetCurrentDirectory(), "src/Libuv")}'
