@@ -11,3 +11,11 @@ custom-goals
 
 #copy-libuv target='initialize' if='Directory.Exists("src")'
   exec program='dotnet' commandline='run -p ../../tools/LibuvCopier' workingdir='${Path.Combine(Directory.GetCurrentDirectory(), "src/Libuv")}'
+
+#create-commit-file target='compile'
+  @{
+    var artifactsDir = Path.Combine(Directory.GetCurrentDirectory(), "artifacts");
+    var commitHashFile = Path.Combine(artifactsDir, "commit");
+    Directory.CreateDirectory(artifactsDir);
+    GitCommand("rev-parse HEAD >> " + commitHashFile);
+  }
