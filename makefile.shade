@@ -14,8 +14,11 @@ custom-goals
 
 #create-commit-file target='compile'
   @{
-    var artifactsDir = Path.Combine(Directory.GetCurrentDirectory(), "artifacts");
-    var commitHashFile = Path.Combine(artifactsDir, "commit");
-    Directory.CreateDirectory(artifactsDir);
-    GitCommand("rev-parse HEAD >> " + commitHashFile);
+    if (!IsLinux)
+    {
+        var artifactsDir = Path.Combine(Directory.GetCurrentDirectory(), "artifacts");
+        var commitHashFile = Path.Combine(artifactsDir, "commit");
+        Directory.CreateDirectory(artifactsDir);
+        GitCommand("rev-parse HEAD >> " + commitHashFile);
+    }
   }
