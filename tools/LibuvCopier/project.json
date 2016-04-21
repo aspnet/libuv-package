@@ -8,16 +8,15 @@
     "Newtonsoft.Json": "8.0.3"
   },
   "frameworks": {
-    "netcoreapp1.0": {
+    "netstandardapp1.5": {
       "dependencies": {
-        "Microsoft.NetCore.App": {
-          "version": "1.0.0-*",
-          "type": "platform"
-        }
+        "NETStandard.Library": "1.5.0-*",
+        "System.Dynamic.Runtime": "4.0.11-*"
       },
       "imports": [
-        "portable-dnxcore50+net45+win8+wp8+wpa81"
+        "dnxcore50"
       ]
-    }
+    },
+    "net451": {}
   }
 }
