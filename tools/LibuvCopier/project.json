@@ -10,7 +10,7 @@
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
-        "Microsoft.NetCore.App": {
+        "Microsoft.NETCore.App": {
           "version": "1.0.0-*",
           "type": "platform"
         }
