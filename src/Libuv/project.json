@@ -25,6 +25,7 @@
     }
   },
   "dependencies": {
+    "Microsoft.NETCore.Platforms": "1.0.1-*",
     "Microsoft.AspNetCore.Internal.libuv-Darwin": {
       "version": "1.9.2-*",
       "type": "build"
