@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0-*",
+  "version": "1.9.0-rc2-20896",
   "description": "Multi-platform support library with a focus on asynchronous I/O.",
   "authors": [
     "Libuv"

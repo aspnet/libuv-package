@@ -4,14 +4,14 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-*",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-final",
     "Newtonsoft.Json": "8.0.3"
   },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.0-*",
+          "version": "1.0.0-rc2-3002702",
           "type": "platform"
         }
       },
