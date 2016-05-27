@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
-using Microsoft.Extensions.PlatformAbstractions;
+using System.Runtime.InteropServices;
 using Newtonsoft.Json.Linq;
 
 namespace LibuvCopier
@@ -49,8 +49,7 @@ namespace LibuvCopier
 #if NET451
             return Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 #else
-            var runtimeEnv = PlatformServices.Default.Runtime;
-            if (runtimeEnv.OperatingSystem == "Windows")
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
                 return Environment.GetEnvironmentVariable("USERPROFILE") ??
                     Environment.GetEnvironmentVariable("HOMEDRIVE") + Environment.GetEnvironmentVariable("HOMEPATH");
