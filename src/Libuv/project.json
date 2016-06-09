@@ -20,7 +20,9 @@
         "runtimes/win7-arm/native/": "runtimes/win7-arm/native/*",
         "runtimes/osx/native/": "runtimes/osx/native/*",
         "runtimes/rhel-x64/native/": "runtimes/rhel-x64/native/*",
-        "runtimes/debian-x64/native/": "runtimes/debian-x64/native/*"
+        "runtimes/debian-x64/native/": "runtimes/debian-x64/native/*",
+        "runtimes/opensuse-x64/native/": "runtimes/opensuse-x64/native/*",
+        "runtimes/fedora-x64/native/": "runtimes/fedora-x64/native/*"
       }
     }
   },
