@@ -1,6 +1,7 @@
 {
   "version": "1.9.0",
   "description": "Multi-platform support library with a focus on asynchronous I/O.",
+  "licenseUrl": "https://raw.githubusercontent.com/aspnet/libuv-package/dev/content/License.txt",
   "authors": [
     "Libuv"
   ],
@@ -14,7 +15,7 @@
     ],
     "files": {
       "mappings": {
-        "/": "../../content/thirdpartynotices.txt",
+        "/": "../../content/License.txt",
         "runtimes/win7-x64/native/": "runtimes/win7-x64/native/*",
         "runtimes/win7-x86/native/": "runtimes/win7-x86/native/*",
         "runtimes/win7-arm/native/": "runtimes/win7-arm/native/*",
