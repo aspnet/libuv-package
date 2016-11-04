@@ -4,19 +4,16 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "Newtonsoft.Json": "8.0.3"
+    "Newtonsoft.Json": "9.0.1"
   },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.0-rc2-3002702",
+          "version": "1.0.0",
           "type": "platform"
         }
-      },
-      "imports": [
-        "portable-dnxcore50+net45+win8+wp8+wpa81"
-      ]
+      }
     }
   }
 }

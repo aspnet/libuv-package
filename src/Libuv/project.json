@@ -15,7 +15,7 @@
     ],
     "files": {
       "mappings": {
-        "/": "../../content/License.txt",
+        "/": "License.txt",
         "runtimes/win7-x64/native/": "runtimes/win7-x64/native/*",
         "runtimes/win7-x86/native/": "runtimes/win7-x86/native/*",
         "runtimes/win7-arm/native/": "runtimes/win7-arm/native/*",

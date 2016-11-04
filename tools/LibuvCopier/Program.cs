@@ -28,9 +28,15 @@ namespace LibuvCopier
                 {
                     foreach (var filePath in libuvLib.Value["files"].Select(v => v.Value<string>()))
                     {
-                        if (filePath.ToString().StartsWith("runtimes/", StringComparison.Ordinal))
+                        if (filePath.ToString().StartsWith("runtimes/", StringComparison.Ordinal) ||
+                            string.Equals(filePath.ToString(), "License.txt", StringComparison.Ordinal))
                         {
-                            Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                            var directory = Path.GetDirectoryName(filePath);
+
+                            if (!string.IsNullOrEmpty(directory))
+                            {
+                                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                            }
                             File.Copy(Path.Combine(packagesFolder, libuvLib.Name, filePath), filePath, overwrite: true);
                         }
                     }
@@ -43,7 +49,6 @@ namespace LibuvCopier
             }
         }
 
-        // Copied from DNX's DnuEnvironment.cs
         private static string GetHome()
         {
 #if NET451
