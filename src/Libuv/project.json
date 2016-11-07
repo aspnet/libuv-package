@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "Multi-platform support library with a focus on asynchronous I/O.",
   "licenseUrl": "https://raw.githubusercontent.com/aspnet/libuv-package/dev/content/License.txt",
   "authors": [
@@ -18,7 +18,7 @@
         "/": "License.txt",
         "runtimes/win7-x64/native/": "runtimes/win7-x64/native/*",
         "runtimes/win7-x86/native/": "runtimes/win7-x86/native/*",
-        "runtimes/win7-arm/native/": "runtimes/win7-arm/native/*",
+        "runtimes/win8-arm/native/": "runtimes/win8-arm/native/*",
         "runtimes/osx/native/": "runtimes/osx/native/*",
         "runtimes/rhel-x64/native/": "runtimes/rhel-x64/native/*",
         "runtimes/debian-x64/native/": "runtimes/debian-x64/native/*",
@@ -30,15 +30,15 @@
   "dependencies": {
     "Microsoft.NETCore.Platforms": "1.0.1",
     "Microsoft.AspNetCore.Internal.libuv-Darwin": {
-      "version": "1.9.0-*",
+      "version": "1.10.0-*",
       "type": "build"
     },
     "Microsoft.AspNetCore.Internal.libuv-Linux": {
-      "version": "1.9.0-*",
+      "version": "1.10.0-*",
       "type": "build"
     },
     "Microsoft.AspNetCore.Internal.libuv-Windows": {
-      "version": "1.9.0-*",
+      "version": "1.10.0-*",
       "type": "build"
     }
   },
