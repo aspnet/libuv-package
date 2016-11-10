@@ -1,7 +1,7 @@
 {
-  "version": "1.10.0",
+  "version": "1.10.0-*",
   "description": "Multi-platform support library with a focus on asynchronous I/O.",
-  "licenseUrl": "https://raw.githubusercontent.com/aspnet/libuv-package/dev/content/License.txt",
+  "licenseUrl": "https://raw.githubusercontent.com/aspnet/libuv-build/dev/build/License.txt",
   "authors": [
     "Libuv"
   ],
