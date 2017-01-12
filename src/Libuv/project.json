@@ -24,7 +24,10 @@
         "runtimes/rhel-x64/native/": "runtimes/rhel-x64/native/*",
         "runtimes/debian-x64/native/": "runtimes/debian-x64/native/*",
         "runtimes/opensuse-x64/native/": "runtimes/opensuse-x64/native/*",
-        "runtimes/fedora-x64/native/": "runtimes/fedora-x64/native/*"
+        "runtimes/fedora-x64/native/": "runtimes/fedora-x64/native/*",
+        "runtimes/linux-arm/native/": "runtimes/linux-arm/native/*",
+        "runtimes/linux-arm64/native/": "runtimes/linux-arm64/native/*",
+        "runtimes/linux-armel/native/": "runtimes/linux-armel/native/*"
       }
     }
   },
