@@ -16,15 +16,11 @@
     "files": {
       "mappings": {
         "/": "License.txt",
-        "runtimes/win7-x64/native/": "runtimes/win7-x64/native/*",
-        "runtimes/win7-x86/native/": "runtimes/win7-x86/native/*",
-        "runtimes/win8-arm/native/": "runtimes/win8-arm/native/*",
+        "runtimes/win-x64/native/": "runtimes/win-x64/native/*",
+        "runtimes/win-x86/native/": "runtimes/win-x86/native/*",
+        "runtimes/win-arm/native/": "runtimes/win-arm/native/*",
         "runtimes/osx/native/": "runtimes/osx/native/*",
         "runtimes/linux-x64/native/": "runtimes/linux-x64/native/*",
-        "runtimes/rhel-x64/native/": "runtimes/rhel-x64/native/*",
-        "runtimes/debian-x64/native/": "runtimes/debian-x64/native/*",
-        "runtimes/opensuse-x64/native/": "runtimes/opensuse-x64/native/*",
-        "runtimes/fedora-x64/native/": "runtimes/fedora-x64/native/*",
         "runtimes/linux-arm/native/": "runtimes/linux-arm/native/*",
         "runtimes/linux-arm64/native/": "runtimes/linux-arm64/native/*",
         "runtimes/linux-armel/native/": "runtimes/linux-armel/native/*"
