@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0-*",
+  "version": "1.9.2-*",
   "description": "Multi-platform support library with a focus on asynchronous I/O.",
   "authors": [
     "Libuv"
@@ -26,15 +26,15 @@
   },
   "dependencies": {
     "Microsoft.AspNetCore.Internal.libuv-Darwin": {
-      "version": "1.9.0-*",
+      "version": "1.9.2-*",
       "type": "build"
     },
     "Microsoft.AspNetCore.Internal.libuv-Linux": {
-      "version": "1.9.0-*",
+      "version": "1.9.2-*",
       "type": "build"
     },
     "Microsoft.AspNetCore.Internal.libuv-Windows": {
-      "version": "1.9.0-*",
+      "version": "1.9.2-*",
       "type": "build"
     }
   },
